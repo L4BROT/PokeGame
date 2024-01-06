@@ -1,0 +1,169 @@
+#logo{
+    height: 150px;
+    /* border: solid black; */
+}
+
+#corde{
+    height: 150px;
+    /* border: solid black; */
+}
+
+#banniereImage{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(66, 66, 189);
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+#gamePlace{
+    width: 50%;
+    margin: auto;
+    height: 380px;
+    margin-top: 50px;
+    border: solid black 2px;
+    border-radius: 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+#affichageMot, #affichageScore, #affichageErr, #affichageLettre{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#start{
+    margin: 10px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background-color: green;
+    font-family: 'Genos', sans-serif;
+    font-size: x-large;
+}
+
+#restart{
+    margin: 10px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(195, 0, 0);
+    font-family: 'Genos', sans-serif;
+    font-size: x-large;
+}
+
+#start:hover{
+    background-color: rgb(0, 115, 0);
+    cursor: pointer;
+}
+
+#restart:hover{
+    background-color: rgb(176, 0, 0);
+    cursor: pointer;
+}
+
+#affichageLettre{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#affichageErr{
+    background-color: red;
+    color: white;
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#affichageMot{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#inputLettre{
+    border-radius: 10px 0 0 10px;
+    border: none;
+    height: 30px;
+    width: 250px;
+}
+
+#valider{
+    border-radius: 0 10px 10px 0;
+    border: none;
+    width: 80px;
+    background-color: orange;
+    font-family: 'Genos', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#valider:hover{
+    background-color: rgb(239, 145, 0);
+    cursor: pointer;
+}
+
+#informacion{
+    width: 50px;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#informacion:hover{
+    cursor: pointer;
+}
+
+#gameRules{
+    width: 100%;
+    background-color: rgb(66, 66, 189);
+    position: fixed;
+    top: 200px;
+    height: 500px;
+}
+
+h2, p{
+    display: flex; 
+    justify-content: center;
+    
+}
+
+#entiendo{
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: orange;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: 'Genos', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#entiendo:hover{
+    background-color: rgb(239, 145, 0);
+    cursor: pointer;
+}

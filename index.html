@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos&family=Kdam+Thmor+Pro&family=Press+Start+2P&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Genos&family=Urbanist&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>PokéGame</title>
+</head>
+
+<body>
+
+    <div id="banniereImage">
+        <img src="img/pokemon_logo.png" alt="logo pokémon" id="logo">
+        <img src="img/pendu.png" alt="corde pendu" id="corde">
+    </div>
+
+    <img src="img/info-logo.png" alt="lettre i pour information" id="informacion">
+
+    <div id="gamePlace">
+
+        <div id="buttons">
+            <input type="button" id="start" value="Start">
+            <input type="button" id="restart" value="Restart">
+        </div>
+
+        <form action="" method="get" id="formulaire">
+            <input type="text" id="inputLettre">
+            <input type="button" id="valider" value="Valider">
+        </form>
+
+        <div id="affichageMot"></div>
+        <div id="affichageScore"></div>
+        <div id="affichageLettre"></div>
+        <div id="affichageErr"></div>
+
+    </div>
+
+    <div id="gameRules">
+        <h2>Bienvenue dans le jeu.</h2>
+        <p>
+            Nous sommes ici sur un jeu du pendu des plus classiques.<br>
+            Les mots à trouver seront des Pokémon de la 1ère génération.<br>
+            Quand une partie commence vous avez le droit à 10 erreurs.<br>
+            Si une lettre est valide, aucune erreur n'est comptée<br>
+            et elle sera ajoutée au mot caché à son emplacement.<br>
+            La partie est terminée si vous n'avez pas découvert le mot<br>
+            après avoir commis 10 erreurs, ou si le mot est découvert.<br>
+            Voilà, vous savez tout, amusez vous bien !<br>
+        </p>
+        <p>
+            Rico's Game Company - All rights reserved
+        </p>
+        <input type="button" id="entiendo" value="J'ai compris">
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
